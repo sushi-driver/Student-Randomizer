@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.nav ul{
+    border-bottom: solid rgb(10, 165, 170) 2px;
+    position: fixed;
+    background-color:#333;       
+    height: 27px; 
+    width: 100%;        
+}
+
+.nav li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3px 5px;
+    display: block;
+    float: left;
+    height: 20px; 
+}
+
+.nav a{
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding: 30px 0;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 54, 54);
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(10, 165, 170);
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+label{
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+
+div.app{
+    display: flexbox;
+    margin: auto;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+button{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: rgb(10, 165, 170);
+}
+
+button.start{
+    color: green;
+}
+
+button.stop{
+    color: red;
+}
+
+@media screen and (max-width: 800px){
+    img{
+        max-width: 350px;
+    }
+}
